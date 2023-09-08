@@ -1,0 +1,5 @@
+python visualization.py 131_04-dance-extracted-lfemur-X.txt 131_04-dance-linear-euler-extracted-lfemur-X.txt 131_04-dance-bezier-euler-extracted-lfemur-X.txt "Graph 1: 131_04-dance Linear Euler and Bezier Euler" 600 800 "Linear Euler" "Bezier Euler"
+python visualization.py 131_04-dance-extracted-lfemur-X.txt 131_04-dance-linear-quaternion-extracted-lfemur-X.txt 131_04-dance-bezier-quaternion-extracted-lfemur-X.txt "Graph 2: 131_04-dance SLERP Quaternion and Bezier SLERP Quaternion" 600 800 "Slerp Quaternion" "Bezier Quaternion"
+
+python visualization.py 131_04-dance-extracted-root-Z.txt 131_04-dance-linear-euler-extracted-root-Z.txt 131_04-dance-linear-quaternion-extracted-root-Z.txt "Graph 3: 131_04-dance Linear Euler to SLERP Quaternion" 200 500 "Linear Euler" "Slerp Quaternion"
+python visualization.py 131_04-dance-extracted-root-Z.txt 131_04-dance-bezier-euler-extracted-root-Z.txt 131_04-dance-bezier-quaternion-extracted-root-Z.txt "Graph 4: 131_04-dance Bezier Euler to Bezier SLERP Quaternion" 200 500 "Bezier Euler" "Bezier Quaternion"
